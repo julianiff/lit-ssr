@@ -1,0 +1,35 @@
+{
+  "name": "lit-ssr-test",
+  "version": "1.0.0",
+  "description": "Lit 2.0 SSR Test project with node 14",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@lit-labs/ssr": "^1.0.0-rc.1",
+    "koa": "^2.13.1",
+    "koa-node-resolve": "^1.0.0-pre.9",
+    "koa-static": "^5.0.0",
+    "lit": "^2.0.0-rc.1",
+    "stream": "^0.0.2",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/koa-static": "^4.0.1",
+    "@types/node": "^14.14.41"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianiff/lit-ssr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianiff/lit-ssr/issues"
+  },
+  "homepage": "https://github.com/julianiff/lit-ssr#readme"
+}
