@@ -5,11 +5,12 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
-    "@lit-labs/ssr": "^1.0.0-rc.1",
+    "@lit-labs/ssr": "^1.0.0",
+    "iff-design-system": "^1.13.0",
     "koa": "^2.13.1",
     "koa-node-resolve": "^1.0.0-pre.9",
     "koa-static": "^5.0.0",
-    "lit": "^2.0.0-rc.1",
+    "lit": "^2.0.0",
     "stream": "^0.0.2",
     "typescript": "^4.2.4"
   },
@@ -20,7 +21,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc --watch"
+    "watch": "tsc --watch",
+    "server": "node ./lib/server.js --watch"
   },
   "repository": {
     "type": "git",
